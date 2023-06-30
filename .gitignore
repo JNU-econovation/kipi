@@ -1,4 +1,7 @@
 weatherDataMaking/img/clothes/
+weatherDataMaking/img/labels/
+weatherDataMaking/img/clothes.zip
+weatherDataMaking/img/labels.zip
 .DS_Store
 # Byte-compiled / optimized / DLL files
 __pycache__/

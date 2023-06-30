@@ -121,6 +121,7 @@ def nxt_pic():
 
     tk_img = imagePrepro('img/clothes/'+str(part_df[NAME][cnt_by_NAME[NAME]])+'.jpg')
     img_frame.configure(image=tk_img)
+    pertage.configure(text=f"{cnt_by_NAME[NAME]}/2921\n {round(cnt_by_NAME[NAME]*100/2921,4)}%")
     cnt_by_NAME[NAME] += 1
 
 def insertWeather(event):
@@ -196,5 +197,8 @@ btn_frame.grid(row=1, column=0, pady=10)
 pre_btn = tk.Button(btn_frame,text='before',bg='blue',command=pre_pic).grid(row=0,column=1)
 nxt_btn = tk.Button(btn_frame,text='after',bg='blue',command=nxt_pic).grid(row=0,column=2)
 exit_btn = tk.Button(btn_frame,text="exit",bg='red',command=exit_program).grid(row=0, column=3)
+
+pertage = tk.Label(btn_frame, text=f"0/2921\n 0%", anchor = 'w')
+pertage.grid(row=1, column=0, columnspan=3)
 
 window.mainloop()
