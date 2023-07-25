@@ -89,7 +89,6 @@ class Engine(object):
         # define train and val transform
         dataset.transform = self.state['val_transform']
         dataset.target_transform = self._state('val_target_transform')
-        self.idx2cat = dataset.idx2cat
 
         # data loading code
         data_loader = torch.utils.data.DataLoader(dataset,

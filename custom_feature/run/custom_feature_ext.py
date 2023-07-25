@@ -17,9 +17,9 @@ from utility.resnest import *
 
 
 
-def custom_feature(model_name, args, phase='custom'):
+def custom_feature(model_name, args, phase='custom', img_path=None):
     
-    dataset = load_data(root = args.data, phase=phase, inp_name=args.wordvec)
+    dataset = load_data(root = args.data, phase=phase, inp_name=args.wordvec, img_path=img_path)
     state = {'batch_size': args.batch_size, 'image_size': args.image_size}
 
     if model_name == 'style':

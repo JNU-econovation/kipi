@@ -31,13 +31,10 @@ parser.add_argument('-e', '--evaluate', dest='evaluate', default=True, action='s
                     help='evaluate model on validation set')
 args = parser.parse_args()
 
-def test_vec_gen():
+def get_img_feature(img_path) -> np.array():
     test_vec_list = []
 
-    with open(os.path.join(args.data, '{}_img.json'.format('test')), 'r') as f :
-        img_file = json.load(f)
-
-    img = Image.open(img_file[0]['file_name'])
+    img = Image.open(img_path)
     width, height = img.size
     img = img.crop((width/8, height/8, width*7/8, height*7/8))
 
@@ -58,9 +55,6 @@ def test_vec_gen():
     test_vec[test_vec<0]=0
 
     return test_vec
-
-def get_test_vec():
-    pass
 
 def faiss_feature(img_dir, fac, isfirst):
     

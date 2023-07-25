@@ -8,12 +8,12 @@ from utility.util import *
 import numpy as np
 
 class load_data(data.Dataset):
-    def __init__(self, root, phase='custom', inp_name=None):
+    def __init__(self, root, phase='custom', inp_name=None, img_path=None):
         self.root = root
         self.phase = phase
         self.img_list = []
+        self.img_path = img_path
         self.get_anno()
-        self.num_classes = len(self.cat2idx)
 
         with open(inp_name, 'rb') as f:
             self.inp = pickle.load(f)
@@ -22,12 +22,11 @@ class load_data(data.Dataset):
 
     def get_anno(self):
         if self.phase == 'test':
-            list_path = os.path.join(self.root, '{}_img.json'.format(self.phase))
+            self.img_list = [{'file_name':self.img_path}]
         else:
             list_path = os.path.join(self.root,'prepro_data/', '{}_img.json'.format(self.phase))
-        self.img_list = json.load(open(list_path, 'r'))
-        self.cat2idx = json.load(open(os.path.join(self.root, 'kfashion_style/category_custom_final.json'), 'r'))
-        self.idx2cat = {v:k for k,v in self.cat2idx.items()}
+            self.img_list = json.load(open(list_path, 'r'))
+            self.length = len(self.img_list)
 
     def __len__(self):
         return len(self.img_list)
