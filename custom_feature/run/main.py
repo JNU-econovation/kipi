@@ -5,7 +5,9 @@ from fastapi import Depends, FastAPI, HTTPException, UploadFile, File
 from fastapi.responses import FileResponse
 from sqlalchemy.orm import Session
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+from fastapi.middleware.cors import CORSMiddleware
+
+BASE_DIR = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
 STATIC_DIR = os.path.join(BASE_DIR,'images/')
 
 import models, schemas, service, init_data
@@ -14,6 +16,20 @@ from database import SessionLocal, engine
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
+
+origins = [
+    "http://localhost",
+    "http://localhost:8080",
+    "http://localhost:5000",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 def get_db():
     db = SessionLocal()
@@ -84,15 +100,16 @@ async def upload_image(file:  UploadFile = File(...)):
     currentTime = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
     saved_file_name = ''.join([currentTime, secrets.token_hex(16)])
     print(saved_file_name)
-    file_location = os.path.join(STATIC_DIR,"/images",saved_file_name)
+    file_location = os.path.join(STATIC_DIR,saved_file_name)
     contents = await file.read()
+    
     with open(file_location, "wb+") as file_object:
         file_object.write(contents)
     return saved_file_name
 
 @app.get('/image/{file_name}')
 async def get_image(file_name:str):
-    return FileResponse(os.join([STATIC_DIR,"/images",file_name]))
+    return FileResponse("".join([STATIC_DIR,file_name]))
 
 @app.get('/init')
 def init(db: Session = Depends(get_db)):
