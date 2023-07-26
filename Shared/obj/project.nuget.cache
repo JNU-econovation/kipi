@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6aNYpP6U8B7zMLESEmqkvjMh/1KEuX7Pr7OXmEjawBN//r0IQFfYDZGXYKzBRZv7inJ+pB5euhtEc1MINluhxw==",
+  "dgSpecHash": "ECmVwcS4qdG0dgqhPVPYyU6GosVOcPUW8izJFTINXrFci7AXqAaLf/H8EwBP5doxCIuALHJC+C4CIW35xEquUw==",
   "success": true,
-  "projectFilePath": "D:\\Kipi\\Clothink\\Clothink\\Shared\\Clothink.Shared.csproj",
+  "projectFilePath": "D:\\vscode\\kipi\\Clothink\\Clothink\\Shared\\Clothink.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\suhye\\.nuget\\packages\\aspnetmonsters.blazor.geolocation\\0.4.0.1017\\aspnetmonsters.blazor.geolocation.0.4.0.1017.nupkg.sha512",
     "C:\\Users\\suhye\\.nuget\\packages\\copilotdev.net.api\\1.1.0\\copilotdev.net.api.1.1.0.nupkg.sha512",

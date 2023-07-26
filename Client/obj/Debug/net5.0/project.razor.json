@@ -9,117 +9,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1539308662,
-        "Kind": "Components.Component",
-        "Name": "Clothink.Client.App",
-        "AssemblyName": "Clothink.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Clothink.Client.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "Clothink.Client",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1197737271,
-        "Kind": "Components.Component",
-        "Name": "Clothink.Client.App",
-        "AssemblyName": "Clothink.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Clothink.Client.App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Clothink.Client.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "Clothink.Client",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -2045584452,
-        "Kind": "Components.Component",
-        "Name": "Clothink.Client.Pages.ButtonWithModifyModal",
-        "AssemblyName": "Clothink.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ButtonWithModifyModal"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Clothink.Client.Pages.ButtonWithModifyModal",
-          "Common.TypeNameIdentifier": "ButtonWithModifyModal",
-          "Common.TypeNamespace": "Clothink.Client.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 2096749905,
-        "Kind": "Components.Component",
-        "Name": "Clothink.Client.Pages.ButtonWithModifyModal",
-        "AssemblyName": "Clothink.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Clothink.Client.Pages.ButtonWithModifyModal"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Clothink.Client.Pages.ButtonWithModifyModal",
-          "Common.TypeNameIdentifier": "ButtonWithModifyModal",
-          "Common.TypeNamespace": "Clothink.Client.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1321424510,
-        "Kind": "Components.Component",
-        "Name": "Clothink.Client.Pages.Closet",
-        "AssemblyName": "Clothink.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Closet"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Clothink.Client.Pages.Closet",
-          "Common.TypeNameIdentifier": "Closet",
-          "Common.TypeNamespace": "Clothink.Client.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -253020197,
-        "Kind": "Components.Component",
-        "Name": "Clothink.Client.Pages.Closet",
-        "AssemblyName": "Clothink.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Clothink.Client.Pages.Closet"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Clothink.Client.Pages.Closet",
-          "Common.TypeNameIdentifier": "Closet",
-          "Common.TypeNamespace": "Clothink.Client.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": 1377524694,
         "Kind": "Components.Component",
         "Name": "Clothink.Client.Pages.Counter",
@@ -179,37 +68,37 @@
         }
       },
       {
-        "HashCode": -2094908880,
+        "HashCode": -2045584452,
         "Kind": "Components.Component",
-        "Name": "Clothink.Client.Pages.FetchData",
+        "Name": "Clothink.Client.Pages.ButtonWithModifyModal",
         "AssemblyName": "Clothink.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FetchData"
+            "TagName": "ButtonWithModifyModal"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "Clothink.Client.Pages.FetchData",
-          "Common.TypeNameIdentifier": "FetchData",
+          "Common.TypeName": "Clothink.Client.Pages.ButtonWithModifyModal",
+          "Common.TypeNameIdentifier": "ButtonWithModifyModal",
           "Common.TypeNamespace": "Clothink.Client.Pages",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 1306691035,
+        "HashCode": 2096749905,
         "Kind": "Components.Component",
-        "Name": "Clothink.Client.Pages.FetchData",
+        "Name": "Clothink.Client.Pages.ButtonWithModifyModal",
         "AssemblyName": "Clothink.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Clothink.Client.Pages.FetchData"
+            "TagName": "Clothink.Client.Pages.ButtonWithModifyModal"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "Clothink.Client.Pages.FetchData",
-          "Common.TypeNameIdentifier": "FetchData",
+          "Common.TypeName": "Clothink.Client.Pages.ButtonWithModifyModal",
+          "Common.TypeNameIdentifier": "ButtonWithModifyModal",
           "Common.TypeNamespace": "Clothink.Client.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
@@ -247,6 +136,43 @@
         "Metadata": {
           "Common.TypeName": "Clothink.Client.Pages.Home",
           "Common.TypeNameIdentifier": "Home",
+          "Common.TypeNamespace": "Clothink.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -2094908880,
+        "Kind": "Components.Component",
+        "Name": "Clothink.Client.Pages.FetchData",
+        "AssemblyName": "Clothink.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Clothink.Client.Pages.FetchData",
+          "Common.TypeNameIdentifier": "FetchData",
+          "Common.TypeNamespace": "Clothink.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1306691035,
+        "Kind": "Components.Component",
+        "Name": "Clothink.Client.Pages.FetchData",
+        "AssemblyName": "Clothink.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Clothink.Client.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Clothink.Client.Pages.FetchData",
+          "Common.TypeNameIdentifier": "FetchData",
           "Common.TypeNamespace": "Clothink.Client.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
@@ -411,6 +337,43 @@
         }
       },
       {
+        "HashCode": -1321424510,
+        "Kind": "Components.Component",
+        "Name": "Clothink.Client.Pages.Closet",
+        "AssemblyName": "Clothink.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Closet"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Clothink.Client.Pages.Closet",
+          "Common.TypeNameIdentifier": "Closet",
+          "Common.TypeNamespace": "Clothink.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -253020197,
+        "Kind": "Components.Component",
+        "Name": "Clothink.Client.Pages.Closet",
+        "AssemblyName": "Clothink.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Clothink.Client.Pages.Closet"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Clothink.Client.Pages.Closet",
+          "Common.TypeNameIdentifier": "Closet",
+          "Common.TypeNamespace": "Clothink.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": -1460220458,
         "Kind": "Components.Component",
         "Name": "Clothink.Client.Pages.Navigation",
@@ -448,59 +411,74 @@
         }
       },
       {
-        "HashCode": 982643670,
+        "HashCode": 1539308662,
         "Kind": "Components.Component",
-        "Name": "Clothink.Client.Shared.SurveyPrompt",
+        "Name": "Clothink.Client.App",
         "AssemblyName": "Clothink.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
+            "TagName": "App"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "Clothink.Client.Shared.SurveyPrompt",
-          "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Common.TypeName": "Clothink.Client.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "Clothink.Client",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1197737271,
+        "Kind": "Components.Component",
+        "Name": "Clothink.Client.App",
+        "AssemblyName": "Clothink.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Clothink.Client.App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Clothink.Client.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "Clothink.Client",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 403618171,
+        "Kind": "Components.Component",
+        "Name": "Clothink.Client.Shared.NavMenu",
+        "AssemblyName": "Clothink.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Clothink.Client.Shared.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
           "Common.TypeNamespace": "Clothink.Client.Shared",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -752386152,
+        "HashCode": 1045302078,
         "Kind": "Components.Component",
-        "Name": "Clothink.Client.Shared.SurveyPrompt",
+        "Name": "Clothink.Client.Shared.NavMenu",
         "AssemblyName": "Clothink.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Clothink.Client.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
+            "TagName": "Clothink.Client.Shared.NavMenu"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "Clothink.Client.Shared.SurveyPrompt",
-          "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Common.TypeName": "Clothink.Client.Shared.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
           "Common.TypeNamespace": "Clothink.Client.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
@@ -613,37 +591,59 @@
         }
       },
       {
-        "HashCode": 403618171,
+        "HashCode": 982643670,
         "Kind": "Components.Component",
-        "Name": "Clothink.Client.Shared.NavMenu",
+        "Name": "Clothink.Client.Shared.SurveyPrompt",
         "AssemblyName": "Clothink.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
           }
         ],
         "Metadata": {
-          "Common.TypeName": "Clothink.Client.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeName": "Clothink.Client.Shared.SurveyPrompt",
+          "Common.TypeNameIdentifier": "SurveyPrompt",
           "Common.TypeNamespace": "Clothink.Client.Shared",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 1045302078,
+        "HashCode": -752386152,
         "Kind": "Components.Component",
-        "Name": "Clothink.Client.Shared.NavMenu",
+        "Name": "Clothink.Client.Shared.SurveyPrompt",
         "AssemblyName": "Clothink.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Clothink.Client.Shared.NavMenu"
+            "TagName": "Clothink.Client.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
           }
         ],
         "Metadata": {
-          "Common.TypeName": "Clothink.Client.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeName": "Clothink.Client.Shared.SurveyPrompt",
+          "Common.TypeNameIdentifier": "SurveyPrompt",
           "Common.TypeNamespace": "Clothink.Client.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"

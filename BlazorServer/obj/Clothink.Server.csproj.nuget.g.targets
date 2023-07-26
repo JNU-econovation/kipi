@@ -7,6 +7,5 @@
     <Import Project="$(NuGetPackageRoot)system.text.encodings.web\7.0.0\buildTransitive\netcoreapp2.0\System.Text.Encodings.Web.targets" Condition="Exists('$(NuGetPackageRoot)system.text.encodings.web\7.0.0\buildTransitive\netcoreapp2.0\System.Text.Encodings.Web.targets')" />
     <Import Project="$(NuGetPackageRoot)system.text.json\7.0.2\buildTransitive\netcoreapp2.0\System.Text.Json.targets" Condition="Exists('$(NuGetPackageRoot)system.text.json\7.0.2\buildTransitive\netcoreapp2.0\System.Text.Json.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly.server\5.0.9\build\Microsoft.AspNetCore.Components.WebAssembly.Server.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly.server\5.0.9\build\Microsoft.AspNetCore.Components.WebAssembly.Server.targets')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.analyzers\5.0.9\buildTransitive\netstandard2.0\Microsoft.AspNetCore.Components.Analyzers.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.analyzers\5.0.9\buildTransitive\netstandard2.0\Microsoft.AspNetCore.Components.Analyzers.targets')" />
   </ImportGroup>
 </Project>

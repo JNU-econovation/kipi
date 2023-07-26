@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Kipi\\Clothink\\Clothink\\Client\\Clothink.Client.csproj": {}
+    "D:\\vscode\\kipi\\Clothink\\Clothink\\Client\\Clothink.Client.csproj": {}
   },
   "projects": {
-    "D:\\Kipi\\Clothink\\Clothink\\Client\\Clothink.Client.csproj": {
+    "D:\\vscode\\kipi\\Clothink\\Clothink\\Client\\Clothink.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kipi\\Clothink\\Clothink\\Client\\Clothink.Client.csproj",
+        "projectUniqueName": "D:\\vscode\\kipi\\Clothink\\Clothink\\Client\\Clothink.Client.csproj",
         "projectName": "Clothink.Client",
-        "projectPath": "D:\\Kipi\\Clothink\\Clothink\\Client\\Clothink.Client.csproj",
+        "projectPath": "D:\\vscode\\kipi\\Clothink\\Clothink\\Client\\Clothink.Client.csproj",
         "packagesPath": "C:\\Users\\suhye\\.nuget\\packages\\",
-        "outputPath": "D:\\Kipi\\Clothink\\Clothink\\Client\\obj\\",
+        "outputPath": "D:\\vscode\\kipi\\Clothink\\Clothink\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\suhye\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Kipi\\Clothink\\Clothink\\Shared\\Clothink.Shared.csproj": {
-                "projectPath": "D:\\Kipi\\Clothink\\Clothink\\Shared\\Clothink.Shared.csproj"
+              "D:\\vscode\\kipi\\Clothink\\Clothink\\Shared\\Clothink.Shared.csproj": {
+                "projectPath": "D:\\vscode\\kipi\\Clothink\\Clothink\\Shared\\Clothink.Shared.csproj"
               }
             }
           }
@@ -112,14 +112,14 @@
         }
       }
     },
-    "D:\\Kipi\\Clothink\\Clothink\\Shared\\Clothink.Shared.csproj": {
+    "D:\\vscode\\kipi\\Clothink\\Clothink\\Shared\\Clothink.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kipi\\Clothink\\Clothink\\Shared\\Clothink.Shared.csproj",
+        "projectUniqueName": "D:\\vscode\\kipi\\Clothink\\Clothink\\Shared\\Clothink.Shared.csproj",
         "projectName": "Clothink.Shared",
-        "projectPath": "D:\\Kipi\\Clothink\\Clothink\\Shared\\Clothink.Shared.csproj",
+        "projectPath": "D:\\vscode\\kipi\\Clothink\\Clothink\\Shared\\Clothink.Shared.csproj",
         "packagesPath": "C:\\Users\\suhye\\.nuget\\packages\\",
-        "outputPath": "D:\\Kipi\\Clothink\\Clothink\\Shared\\obj\\",
+        "outputPath": "D:\\vscode\\kipi\\Clothink\\Clothink\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\suhye\\AppData\\Roaming\\NuGet\\NuGet.Config",

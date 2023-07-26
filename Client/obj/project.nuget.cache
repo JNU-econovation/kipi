@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SG1IhGS8S0glwbDLreR6DllGaKGSZzRA6Da1hlBKZj6JdvkOJn/++Q8OC9bP3/3h9qrvNbG4GOoVZcxOjVB5dg==",
+  "dgSpecHash": "kIx12jFXYS6SvtludXB9lC3Lrpn1l4xEC1w5MwJLp2NsBmDMbAW2ClJBt7s9J7Wm5rDtW/2kIFK/e4gnjeYFyA==",
   "success": true,
-  "projectFilePath": "D:\\Kipi\\Clothink\\Clothink\\Client\\Clothink.Client.csproj",
+  "projectFilePath": "D:\\vscode\\kipi\\Clothink\\Clothink\\Client\\Clothink.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\suhye\\.nuget\\packages\\aspnetmonsters.blazor.geolocation\\0.4.0.1017\\aspnetmonsters.blazor.geolocation.0.4.0.1017.nupkg.sha512",
     "C:\\Users\\suhye\\.nuget\\packages\\blazor.geolocation.webassembly\\7.0.3\\blazor.geolocation.webassembly.7.0.3.nupkg.sha512",
