@@ -35,8 +35,9 @@ for fac in fac_list:
     file_names = []
     for i in range(len(c)):
         file_names.extend(c[i])
+    
 
-    main_dict[fac] = {file_names[i].split('/')[4].split('_')[0]:db_vec[i].tolist() for i in range(len(file_names))}
+    main_dict[fac] = {int(file_names[i].split('/')[4].split('_')[0]):db_vec[i].tolist() for i in range(len(file_names))}
 
 print(main_dict.keys())
 
