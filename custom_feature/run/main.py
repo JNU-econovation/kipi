@@ -5,7 +5,10 @@ from fastapi import Depends, FastAPI, HTTPException, UploadFile, File
 from fastapi.responses import FileResponse
 from sqlalchemy.orm import Session
 
-import service, models, schemas, init_data
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+STATIC_DIR = os.path.join(BASE_DIR,'images/')
+
+import models, schemas, service, init_data
 from database import SessionLocal, engine
 
 models.Base.metadata.create_all(bind=engine)
@@ -45,7 +48,6 @@ def read_user(user_id: int, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="User not found")
     return db_user
 
-
 @app.post("/clotheset", response_model=schemas.ClothesetBase)
 def create_clotheset(clotheset: schemas.ClothesetBase, db: Session = Depends(get_db)):
     return service.create_clothset(db=db, clotheset=clotheset)
@@ -62,9 +64,14 @@ def read_clothesets_by_user(user_id: int, skip: int = 0, limit: int = 100, db: S
     clothesets = service.get_clothesets_by_user(db, user_id=user_id, skip=skip, limit=limit)
     return clothesets
 
-@app.post("/clotheset/{clotheset_id}")
-def add_cloth_info(clotheset_id: int, img_path:str, name:str, fac: str, feature_vec: int, temperture: int, db: Session = Depends(get_db)):
-    db_clotheset = service.add_cloth_info(db, name=name, clotheset_id=clotheset_id, img_path=img_path, fac=fac, feature_vec=feature_vec, temperture=temperture)
+@app.get("/clotheset/recommend/{user_id}")
+def read_recommend_clothesets(user_id: int, skip: int = 0, limit: int = 100, db: Session = Depends(get_db), temperture: int = 0):
+    clothesets = service.get_recommend_clothesets(db, user_id=user_id, skip=skip, limit=limit)
+    return clothesets
+
+@app.patch("/clotheset/{clotheset_id}")
+def update_clotheset(clotheset_id: int, clotheset: schemas.ClothesetUpdate, db: Session = Depends(get_db)):
+    db_clotheset = service.update_clotheset(db, clotheset_id=clotheset_id, clotheset=clotheset)
     return db_clotheset
 
 @app.delete("/clotheset/{clotheset_id}")
@@ -72,24 +79,23 @@ def delete_clotheset(clotheset_id: int, db: Session = Depends(get_db)):
     db_clotheset = service.delete_clotheset(db, clotheset_id=clotheset_id)
     return db_clotheset
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-STATIC_DIR = os.path.join(BASE_DIR,'images/')
-
 @app.post("/image")
-async def upload_image(file: UploadFile):
+async def upload_image(file:  UploadFile = File(...)):
     currentTime = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
     saved_file_name = ''.join([currentTime, secrets.token_hex(16)])
     print(saved_file_name)
-    file_location = os.path.join(STATIC_DIR,saved_file_name)
+    file_location = os.path.join(STATIC_DIR,"/images",saved_file_name)
+    contents = await file.read()
     with open(file_location, "wb+") as file_object:
-        file_object.write(file.file.read())
-    return file_location
+        file_object.write(contents)
+    return saved_file_name
 
-@app.get('/images/{file_name}')
-def get_image(file_name:str):
-    return FileResponse(''.join([STATIC_DIR,file_name]))
+@app.get('/image/{file_name}')
+async def get_image(file_name:str):
+    return FileResponse(os.join([STATIC_DIR,"/images",file_name]))
 
 @app.get('/init')
 def init(db: Session = Depends(get_db)):
     init_data.init_date(db)
     return "init"
+

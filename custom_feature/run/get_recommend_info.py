@@ -51,4 +51,4 @@ def RecommendCloth(base_closet_path, que_cloth_path):
     return recommend_id
 
 def getVecId(closet_path):
-    
+    pass

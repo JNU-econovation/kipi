@@ -34,24 +34,27 @@ def get_clothesets(db: Session, skip: int = 0, limit: int = 100):
 def get_clothesets_by_user(db: Session, user_id: int, skip: int = 0, limit: int = 100):
     return db.query(models.Clotheset).filter(models.Clotheset.user_id == user_id).offset(skip).limit(limit).all()
 
+def get_recommend_clothesets(db: Session, user_id: int, skip: int = 0, limit: int = 100, temperture: int = 0):
+    from get_recommend_info import getRecommendCloth
+    closet_id_arr = getRecommendCloth(db.query(models.Clotheset).filter(models.Clotheset.user_id == user_id).offset(skip).limit(limit).all(), temperture)
+    return db.query(models.Clotheset).filter(models.Clotheset.id in closet_id_arr).all()
+
 def get_cloth(db: Session, cloth_id: int):
     return db.query(models.Cloth).filter(models.Cloth.id == cloth_id).first()
 
 def create_clothset(db: Session, clotheset: schemas.ClothesetBase):
-    db_clotheset = models.Clotheset(name=clotheset.name, img_path=clotheset.img_path, user_id=clotheset.user_id, fac="undefined", feature_vec="", temperture=0)
+    from get_cross_info import getCrossInfo
+    (fac, feature) = getCrossInfo(clotheset.img_path)
+    db_clotheset = models.Clotheset(name=clotheset.name, img_path=clotheset.img_path, user_id=clotheset.user_id, fac=fac, feature_vec=feature, temperture=0)
     db.add(db_clotheset)
     db.commit()
     db.refresh(db_clotheset)
     return db_clotheset
 
-def add_cloth_info(db: Session,img_path:str, name: str, clotheset_id: int, fac: str,  feature_vec: str, temperture: int):
+def update_clotheset(db: Session, clotheset_id: int, clotheset: schemas.ClothesetUpdate):
     db_clotheset = get_clotheset(db, clotheset_id)
-    db_clotheset.img_path = img_path
-    db_clotheset.name = name
-    db_clotheset.fac = fac
-    db_clotheset.feature_vec = feature_vec
-    db_clotheset.temperture = temperture
-    db.add(db_clotheset)
+    db_clotheset.name = clotheset.name
+    db_clotheset.fac = clotheset.fac
     db.commit()
     db.refresh(db_clotheset)
     return db_clotheset
