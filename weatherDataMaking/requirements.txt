@@ -1,0 +1,5 @@
+tkinter
+tkinter.ttk
+pillow
+pandas
+json
