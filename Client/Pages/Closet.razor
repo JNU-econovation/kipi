@@ -1,0 +1,209 @@
+﻿<!-- url 구성 부분-->
+@* @page 키워드를 넣고 /url을 적어주면 해당 url로 아래 페이지를 요청 가능하다.*@
+@page "/closet"
+
+<Navigation />
+<br />
+<br />
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+        <button class="card" @onclick="toggleShowCloth">
+            <img class="card-img-top" src="images/cloth05.png" alt="Card image cap" />
+            <div class="card-body">
+            </div>
+        </button>
+    </div>
+</div>
+
+    @if (isShowedCloth)
+    {
+        <ButtonWithModifyModal />
+    }
+
+    @code {
+        bool isShowedCloth = false;
+
+        private void toggleShowCloth()
+        {
+            isShowedCloth = !isShowedCloth;
+        }
+    }
+
+ 
+    <!--<div class="card-deck" style="width:9rem;">
+        <button class="card" @onclick="toggleShowCloth">
+            <img class="card-img-top" src="images/cloth05.png" alt="Card image cap" />
+            <div class="card text-center">
+                <h5 class="card-title">오버핏 아치 로고 스웨트 셔츠</h5>
+                <p class="card-text">필루미네이트</p>-->
+    @*            <ButtonWithDeleteModal />
+        <ButtonWithModifyModal />*@
+    <!--</div>
+    </button>
+
+    @if (isShowedCloth)
+    {
+        <button class="card" @onclick="toggleShowCloth">
+            <img class="card-img-top" src="images/cloth05.png" alt="Card image cap" />
+            <div class="card text-center">
+                <h5 class="card-title">오버핏 아치 로고 스웨트 셔츠</h5>
+                <p class="card-text">필루미네이트</p>
+                <ButtonWithDeleteModal />
+                <ButtonWithModifyModal />
+            </div>
+        </button>
+    }
+
+    @code {
+        bool isShowedCloth = false;
+
+        private void toggleShowCloth()
+        {
+            isShowedCloth = !isShowedCloth;
+        }
+    }-->
+    @*   
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="card">
+            <img class="card-img-top" src="images/cloth06.png" alt="Card image cap" />
+            <div class="card text-center">
+                <h5 class="card-title">오버핏 아치 로고 스웨트 셔츠</h5>
+                <p class="card-text">필루미네이트</p>
+                <a href="#" class="btn btn-primary">삭제</a>
+                <a href="#" class="btn btn-primary">수정</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="images/cloth04.png" alt="Card image cap" />
+            <div class="card text-center">
+                <h5 class="card-title">오버핏 아치 로고 스웨트 셔츠</h5>
+                <p class="card-text">필루미네이트</p>
+                <a href="#" class="btn btn-primary">삭제</a>
+                <a href="#" class="btn btn-primary">수정</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="images/cloth01.png" alt="Card image cap" />
+            <div class="card text-center">
+                <h5 class="card-title">오버핏 아치 로고 스웨트 셔츠</h5>
+                <p class="card-text">필루미네이트</p>
+                <a href="#" class="btn btn-primary">삭제</a>
+                <a href="#" class="btn btn-primary">수정</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="images/cloth02.png" alt="Card image cap" />
+            <div class="card text-center">
+                <h5 class="card-title">오버핏 아치 로고 스웨트 셔츠</h5>
+                <p class="card-text">필루미네이트</p>
+                <a href="#" class="btn btn-primary">삭제</a>
+                <a href="#" class="btn btn-primary">수정</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="images/cloth03.png" alt="Card image cap" />
+            <div class="card text-center">
+                <h5 class="card-title">오버핏 아치 로고 스웨트 셔츠</h5>
+                <p class="card-text">필루미네이트</p>
+                <a href="#" class="btn btn-primary">삭제</a>
+                <a href="#" class="btn btn-primary">수정</a>
+            </div>
+        </div>*@
+
+
+
+@*    <div class="row">
+        <!--<!-- 카드 1-->
+        <!--<div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="/image/cat4.jpg" alt=""></a>
+            <div class="card-body">
+                <h4 class="card-title">
+                    <a href="#">달복이랑 삼희</a>
+                </h4>
+                <p class="card-text">
+                    달복이랑 삼희가 여유롭게 앉아있는 모습
+                </p>
+            </div>
+            <div class="card-footer">
+                <p>COUNT : @cat1LikeCount</p>
+                <button class="btn btn-danger" @onclick="@(() => IncrementCount(1))">
+                    <i class="fa fa-heart"></i> 좋아요
+                </button>
+            </div>
+        </div>
+    </div>-->
+        <!-- 카드 2 -->
+        <!--<div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="/image/cat5.jpg" alt=""></a>
+            <div class="card-body">
+                <h4 class="card-title">
+                    <a href="#">썸머</a>
+                </h4>
+                <p class="card-text">
+                    침대위 눕방 즐기는 썸머, 그의 시그니처인 썸머 목걸이도 걸고 있다.
+                </p>
+            </div>
+            <div class="card-footer">
+                <p>COUNT : @cat2LikeCount</p>
+                <button class="btn btn-danger" @onclick="@(() => IncrementCount(2))">
+                    <i class="fa fa-heart"></i> 좋아요
+                </button>
+            </div>
+        </div>
+    </div>-->
+        <!-- 카드 3 -->
+        <!--<div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="/image/cat6.jpg" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">쥐돌이와 썸머</a>
+                        </h4>
+                        <p class="card-text">
+                            썸머 약 5개월때? 6개월때? 사진, 가운데 이마가 다 자라고 쥐돌이를 노려보고 있다.
+                            지금 저 쥐돌이는.. 요단강을 건넜다.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <p>COUNT : @cat3LikeCount</p>
+                        <button class="btn btn-danger" @onclick="@(() => IncrementCount(3))">
+                            <i class="fa fa-heart"></i> 좋아요
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>-->
+        @*자바스크립트를 대신하는 C# 코드 부분*@
+
+@*@code{
+
+        int cat1LikeCount = 0;
+        int cat2LikeCount = 0;
+        int cat3LikeCount = 0;
+
+
+        // 버튼 클릭시 좋아요 카운트가 올라간다.
+        private void IncrementCount(int catNum)
+        {
+            if (catNum == 1)
+                cat1LikeCount++;
+            else if (catNum == 2)
+                cat2LikeCount++;
+            else if (catNum == 3)
+                cat3LikeCount++;
+        }
+    }-->*@
+
+

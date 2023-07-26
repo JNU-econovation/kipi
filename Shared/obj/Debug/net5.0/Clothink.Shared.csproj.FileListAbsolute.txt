@@ -1,0 +1,12 @@
+D:\Kipi\Clothink\Clothink\Shared\bin\Debug\net5.0\Clothink.Shared.deps.json
+D:\Kipi\Clothink\Clothink\Shared\bin\Debug\net5.0\Clothink.Shared.dll
+D:\Kipi\Clothink\Clothink\Shared\bin\Debug\net5.0\Clothink.Shared.pdb
+D:\Kipi\Clothink\Clothink\Shared\obj\Debug\net5.0\Clothink.Shared.csproj.AssemblyReference.cache
+D:\Kipi\Clothink\Clothink\Shared\obj\Debug\net5.0\Clothink.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kipi\Clothink\Clothink\Shared\obj\Debug\net5.0\Clothink.Shared.AssemblyInfoInputs.cache
+D:\Kipi\Clothink\Clothink\Shared\obj\Debug\net5.0\Clothink.Shared.AssemblyInfo.cs
+D:\Kipi\Clothink\Clothink\Shared\obj\Debug\net5.0\Clothink.Shared.csproj.CoreCompileInputs.cache
+D:\Kipi\Clothink\Clothink\Shared\obj\Debug\net5.0\Clothink.Shared.dll
+D:\Kipi\Clothink\Clothink\Shared\obj\Debug\net5.0\ref\Clothink.Shared.dll
+D:\Kipi\Clothink\Clothink\Shared\obj\Debug\net5.0\Clothink.Shared.pdb
+D:\Kipi\Clothink\Clothink\Shared\obj\Debug\net5.0\refint\Clothink.Shared.dll

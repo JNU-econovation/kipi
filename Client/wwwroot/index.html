@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Clothink</title>
+    <base href="/" />
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link href="Clothink.Client.styles.css" rel="stylesheet" />
+    <link href="manifest.json" rel="manifest" />
+    <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
+</head>
+
+<body>
+    <div id="app">
+        <div class="position-relative mt-5">
+            <div class="position-absolute top-50 start-50 translate-middle w-25 text-center">
+                <div class="loading1">
+                    <img class="oi-image" src="images/ClothinkLoading.png" />
+                    <div class="loading2">
+                        <img class="oi-image" src="images/KIPI_Project.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--    <div class="curLocationString">현재 위치:</div>
+    <div class="temp">온도:</div>
+    <div class="curClouds">강수 확률:</div>-->
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script>navigator.serviceWorker.register('service-worker.js');</script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            document.querySelector('.loading1').classList.add('opacity-0');
+            document.querySelector('.loading2').classList.add('opacity-0');
+            //setTimeout(() => {
+            //document.querySelector('.loading').remove();
+            //}, 300)
+        });
+        if ('geolocation' in navigator) {
+            navigator.geolocation.getCurrentPosition(async (position) => {
+                const curWeather = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=b71d36001e5914b31f02e21b422dcb0e`).then((data) => data.json())
+                temp = curWeather.main.temp - 273;
+                curLocationString = curWeather.name;
+                curClouds = curWeather.clouds.all;
+                //document.querySelector('.temp').innerHTML = temp;
+                //document.querySelector('.curLocationString').innerHTML = curLocationString;
+                //document.querySelector('.curClouds').innerHTML = curClouds;
+                console.log(curWeather);
+                console.log(temp, curLocationString, curClouds);
+
+            });
+        } else {
+            /* 위치정보 사용 불가능 */
+        }
+
+    </script>
+</body>
+
+</html>

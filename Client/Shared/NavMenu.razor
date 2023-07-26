@@ -1,0 +1,160 @@
+﻿@*NavMenu 구성 요소: 앱의 레이아웃에 사용됨*@
+@inject NavigationManager NavigationManagertoMainbar
+
+<div class="mainbar">
+    <img class="icon-clothinktext" src="images/ClothinkText.png" @onclick="GoToHome" />
+    <img class="icon-scan" src="images/iconscan.png" @onclick="GoToScan" />
+    <img class="icon-closet" src="images/iconcloset.png" @onclick="GoToCloset" />
+</div>
+
+
+@code {
+    protected void GoToHome()
+    {
+        NavigationManagertoMainbar.NavigateTo("");
+    }
+    protected void GoToScan()
+    {
+        NavigationManagertoMainbar.NavigateTo("");
+    }
+    protected void GoToCloset()
+    {
+        NavigationManagertoMainbar.NavigateTo("/closet");
+    }
+}
+
+@*<div id="topmenu" style="background-color:white;">
+        <img class="oi-image" src="images/ClothinkText.png" />
+        <button class="oi-image" @onclick="GoToCloset">
+            <img class="oi-image" src="images/iconcloset.png" />
+        </button>
+        @if (isShowedCloset)
+        {
+            <Clothink.Client.Pages.Closet />
+
+        }
+    </div>
+
+
+    @code {
+        bool isShowedCloset = false;
+
+        private void GoToCloset()
+        {
+            isShowedCloset = !isShowedCloset;
+    }*@
+
+
+
+@*<div class="top-row pl-3 navbar navbar-light" style="background-color:white">
+    <a class="navbar-brand" href="">Clothink</a>*@
+
+@*<div id="topmenu" style="background-color:white;">
+        <img class="oi-image" src="images/ClothinkText.png" />
+        <button class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+            <ul class="nav flex-" style="background-color:white;">
+                <li class="nav-item px-3">
+                    <NavLink class="nav-link" style="color: black" href="" Match="NavLinkMatch.All">
+                        <span class="oi oi-home" aria-hidden="true"></span> Home
+                    </NavLink>
+                </li>*
+                <li class="nav-item px-3">
+                    <NavLink class="nav-link" style="color: black" href="closet">
+                        <span class="oi oi-list-rich" aria-hidden="true"></span> Closet
+                    </NavLink>
+                </li>
+            </ul>
+        </div>
+    </div>*@
+
+
+
+
+
+@*<div id="topmenu" style="background-color:white;">
+        <img class="oi-image" src="images/ClothinkText.png" />
+        <button class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+            <ul class="nabar-nav flex-grow-1">
+                <li class="nav-item">
+                    <NavLink class="nav-link text-dark" href="" Match="NavLinkMatch.All">
+                        <span class="oi oi-home" aria-hidden="true"></span> Home
+                    </NavLink>
+                </li>
+                <li class="nav-item">
+                    <NavLink class="nav-link text-dark" href="closet">
+                        <span class="oi oi-plus" aria-hidden="true"></span> Closet
+                    </NavLink>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    @code {
+        private bool collapseNavMenu = true;
+
+        private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+        private void ToggleNavMenu()
+        {
+            collapseNavMenu = !collapseNavMenu;
+        }
+    }*@
+
+
+
+
+
+<!--<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">-->
+@*    <nav class="nav flex-column">
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                    <span class="oi oi-home" aria-hidden="true"></span> Home
+                </NavLink>
+            </div>
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="counter">
+                    <span class="oi oi-plus" aria-hidden="true"></span> Counter
+                </NavLink>
+            </div>
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="fetchdata">
+                    <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+                </NavLink>
+            </div>
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="todo">
+                    <span class="oi oi-list-rich" aria-hidden="true"></span> Todo
+                </NavLink>
+            </div>
+        </nav>
+    </div>*@
+<!--<ul class="nav flex-" style="background-color: white">
+    <li class="nav-item px-3">
+        <NavLink class="nav-link" style="color: black" href="" Match="NavLinkMatch.All">
+            <span class="oi oi-home" aria-hidden="true"></span> Home
+        </NavLink>
+    </li>-->
+@*        <li class="nav-item px-3">
+        <NavLink class="nav-link" href="counter">
+            <span class="oi oi-plus" aria-hidden="true"></span> Counter
+        </NavLink>
+    </li>
+    <li class="nav-item px-3">
+        <NavLink class="nav-link" href="fetchdata">
+            <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+        </NavLink>
+    </li>*@
+<!--<li class="nav-item px-3">
+            <NavLink class="nav-link" style="color: black" href="closet">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Closet
+            </NavLink>
+        </li>
+    </ul>
+</div>-->
