@@ -34,3 +34,7 @@ class ClothesetCreate(ClothesetBase):
     fac: str
     feature_vec: str
     temperture: int
+
+class ClothesetUpdate(BaseModel):
+    name: str
+    fac: str

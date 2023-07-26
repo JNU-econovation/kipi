@@ -19,7 +19,10 @@ import os
 from PIL import Image
 from torchvision import transforms
 
-from custom_feature_ext import custom_feature
+import sys
+sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
+
+from run.custom_feature_ext import custom_feature
 
 import extcolors
 
@@ -48,23 +51,27 @@ class2fac = {"T-shirt/top":"upper",
              "Ankle boot":"Undefined"
 }
 
-parser = argparse.ArgumentParser(description='WILDCAT Training')
-parser.add_argument('--data', default='../data/')
-parser.add_argument('--wordvec', default='../data/kfashion_style/custom_glove_word2vec_final.pkl')
-parser.add_argument('--adj', default='../data/kfashion_style/custom_adj_final.pkl')
-parser.add_argument('--image-size', default=224, type=int)
-parser.add_argument('-j', '--workers', default=12, type=int)
-parser.add_argument('--device_ids', default=[0,1,2,3], type=int, nargs='+')
-parser.add_argument('-b', '--batch-size', default=1, type=int,
-                    help='mini-batch size (default: 256)')
-parser.add_argument('-e', '--evaluate', dest='evaluate', default=True, action='store_true',
-                    help='evaluate model on validation set')
-parser.add_argument("--depth", default=16, type=int, help="Number of layers.")
-parser.add_argument("--dropout", default=0.0, type=float, help="Dropout rate.")
-parser.add_argument("--width_factor", default=8, type=int, help="How many times wider compared to normal ResNet.")
-args = parser.parse_args()
+args = None
 
+def get_args():
+    global args
+    parser = argparse.ArgumentParser(description='WILDCAT Training')
+    parser.add_argument('--data', default='../data/')
+    parser.add_argument('--wordvec', default='../data/kfashion_style/custom_glove_word2vec_final.pkl')
+    parser.add_argument('--adj', default='../data/kfashion_style/custom_adj_final.pkl')
+    parser.add_argument('--image-size', default=224, type=int)
+    parser.add_argument('-j', '--workers', default=12, type=int)
+    parser.add_argument('--device_ids', default=[0,1,2,3], type=int, nargs='+')
+    parser.add_argument('-b', '--batch-size', default=1, type=int,
+                        help='mini-batch size (default: 256)')
+    parser.add_argument('-e', '--evaluate', dest='evaluate', default=True, action='store_true',
+                        help='evaluate model on validation set')
+    parser.add_argument("--depth", default=16, type=int, help="Number of layers.")
+    parser.add_argument("--dropout", default=0.0, type=float, help="Dropout rate.")
+    parser.add_argument("--width_factor", default=8, type=int, help="How many times wider compared to normal ResNet.")
+    parser.parse_args()
 
+get_args()
 def getImgFac(img_path):
     global args
     
