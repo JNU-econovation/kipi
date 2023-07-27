@@ -47,7 +47,7 @@
         });
         if ('geolocation' in navigator) {
             navigator.geolocation.getCurrentPosition(async (position) => {
-                const curWeather = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=b71d36001e5914b31f02e21b422dcb0e`).then((data) => data.json())
+                const curWeather = await fetch(``).then((data) => data.json())
                 temp = curWeather.main.temp - 273;
                 curLocationString = curWeather.name;
                 curClouds = curWeather.clouds.all;
