@@ -5,7 +5,7 @@ html, body {
 }
 
 a, .btn-link {
-    color: #0366d6;
+    color: #fff;
 }
 
 .btn-primary {
@@ -106,4 +106,9 @@ a, .btn-link {
 
 .geolocation {
     display: inline-block;
+}
+.weather {
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 50px;
 }

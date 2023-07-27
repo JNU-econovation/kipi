@@ -1316,7 +1316,6 @@ D:\vscode\kipi\Clothink\Clothink\client\obj\Debug\net5.0\build-gz\C7bjxth4.gz
 D:\vscode\kipi\Clothink\Clothink\client\obj\Debug\net5.0\build-gz\Wh3KRPbd.gz
 D:\vscode\kipi\Clothink\Clothink\client\obj\Debug\net5.0\build-gz\F7APgb+e.gz
 D:\vscode\kipi\Clothink\Clothink\client\obj\Debug\net5.0\build-gz\8A5P7YI6.gz
-D:\vscode\kipi\Clothink\Clothink\client\obj\Debug\net5.0\build-gz\65nxhtcT.gz
 D:\vscode\kipi\Clothink\Clothink\client\obj\Debug\net5.0\build-gz\6zRzYFup.gz
 D:\vscode\kipi\Clothink\Clothink\client\obj\Debug\net5.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
 D:\vscode\kipi\Clothink\Clothink\client\obj\Debug\net5.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
@@ -1337,3 +1336,4 @@ D:\vscode\kipi\Clothink\Clothink\client\obj\Debug\net5.0\Clothink.Client.pdb
 D:\vscode\kipi\Clothink\Clothink\client\obj\Debug\net5.0\ref\Clothink.Client.dll
 D:\vscode\kipi\Clothink\Clothink\client\obj\Debug\net5.0\serviceworkers\wwwroot\service-worker.js
 D:\vscode\kipi\Clothink\Clothink\client\obj\Debug\net5.0\service-worker-assets.js
+D:\vscode\kipi\Clothink\Clothink\Client\obj\Debug\net5.0\build-gz\zrGPmZem.gz

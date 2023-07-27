@@ -5,7 +5,7 @@
       "url": "_content\/Blazor.Geolocation.WebAssembly\/blazorators.geolocation.g.js"
     },
     {
-      "hash": "sha256-YfxoV5dUUwfrVYgR4HR3zKD0FPYKXoAfpz3wBuHktYM=",
+      "hash": "sha256-UT86lP2K+1FQb2pcQrkfcUMymBhFF7Nxd83i2\/9Keyg=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -825,11 +825,11 @@
       "url": "_framework\/Clothink.Shared.pdb"
     },
     {
-      "hash": "sha256-yL\/gaum3YadKrslJB5bPZopfSeWqtxGc6asAXVsBN34=",
+      "hash": "sha256-OmgeaTfqKvks05\/Eva0MDUP2x6y90909j\/Uf9h\/3g84=",
       "url": "_framework\/Clothink.Client.dll"
     },
     {
-      "hash": "sha256-5F5Z4PPteiEAH0p2xIyqa+Yv92YuOzz24B0dwQUUdHw=",
+      "hash": "sha256-h7QnhBaWLW2PzcJC6bli\/4csvnbZowFpt\/G+8i2f6aU=",
       "url": "_framework\/Clothink.Client.pdb"
     },
     {
@@ -1649,7 +1649,7 @@
       "url": "_framework\/Clothink.Shared.dll.gz"
     },
     {
-      "hash": "sha256-tv7\/ZNEP6Vm\/uG5fVY0AgWDWD89EZq1pURKI6yneIpE=",
+      "hash": "sha256-ERqO\/gzleVfVxZqwO+z4GexYRe5jhGXaSIOhoqFs\/1o=",
       "url": "css\/app.css"
     },
     {
@@ -1749,7 +1749,11 @@
       "url": "images\/KIPI_Project.png"
     },
     {
-      "hash": "sha256-ll0Z4mmEFEms3lAOJrFfamGvx09rVSDrGBsAVuQ1eos=",
+      "hash": "sha256-mtkw3bC2ZecozlTymjm+CW7LtHuMi+HURhzgTixHph8=",
+      "url": "images\/weather.png"
+    },
+    {
+      "hash": "sha256-qk+BPIQbzfX84lLYTFbXc4MsaXlzuEznZmPB0yLqK9A=",
       "url": "index.html"
     },
     {
@@ -1761,5 +1765,5 @@
       "url": "Clothink.Client.bundle.scp.css"
     }
   ],
-  "version": "5N7EQ6d\/"
+  "version": "\/TM+C4yW"
 };

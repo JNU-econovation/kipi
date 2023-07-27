@@ -90,7 +90,7 @@ using Clothink.Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 7 "d:\vscode\kipi\Clothink\Clothink\Client\Pages\ButtonWithModifyModal.razor"
+#line 9 "d:\vscode\kipi\Clothink\Clothink\Client\Pages\ButtonWithModifyModal.razor"
        
     private bool ShowModal = false;
 

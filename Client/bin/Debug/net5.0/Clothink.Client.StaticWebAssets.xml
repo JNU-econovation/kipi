@@ -1,5 +1,5 @@
 ﻿<StaticWebAssets Version="1.0">
   <ContentRoot BasePath="_content/Blazor.Geolocation.WebAssembly" Path="C:\Users\suhye\.nuget\packages\blazor.geolocation.webassembly\7.0.3\build\..\staticwebassets\" />
-  <ContentRoot BasePath="/" Path="D:\vscode\kipi\Clothink\Clothink\client\bin\Debug\net5.0\wwwroot\" />
-  <ContentRoot BasePath="/" Path="D:\vscode\kipi\Clothink\Clothink\client\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="D:\vscode\kipi\Clothink\Clothink\Client\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="D:\vscode\kipi\Clothink\Clothink\Client\obj\Debug\net5.0\scopedcss\bundle\" />
 </StaticWebAssets>

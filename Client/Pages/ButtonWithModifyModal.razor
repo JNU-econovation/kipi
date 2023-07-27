@@ -1,7 +1,9 @@
 ﻿<!-- ButtonWithModifyModal.razor -->
-<button class="btn btn-primary" @onclick="() => ShowModal = true">수정</button>>
+<button class="btn btn-primary" @onclick="() => ShowModal = true"></button>> @*버튼 이름*@
 <ModifyModalForm Title="My Modal" ShowModal="@ShowModal" ShowModalChanged="(value) => ShowModal = value">
-    <p>This is the content of the modal.</p>
+    <img class="oi-image" src="images/cloth05.png" style="width: 300px;" />
+    <p>필루미네이트</p>
+    <h5>오버핏 아치 로고 스웨트 셔츠</h5>
 </ModifyModalForm>
 
 @code {

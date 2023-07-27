@@ -91,7 +91,7 @@ using Clothink.Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 31 "d:\vscode\kipi\Clothink\Clothink\Client\Pages\Closet.razor"
+#line 32 "d:\vscode\kipi\Clothink\Clothink\Client\Pages\Closet.razor"
            
         bool isShowedCloth = false;
 

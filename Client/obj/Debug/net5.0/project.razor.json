@@ -9,6 +9,43 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": -1321424510,
+        "Kind": "Components.Component",
+        "Name": "Clothink.Client.Pages.Closet",
+        "AssemblyName": "Clothink.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Closet"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Clothink.Client.Pages.Closet",
+          "Common.TypeNameIdentifier": "Closet",
+          "Common.TypeNamespace": "Clothink.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -253020197,
+        "Kind": "Components.Component",
+        "Name": "Clothink.Client.Pages.Closet",
+        "AssemblyName": "Clothink.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Clothink.Client.Pages.Closet"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Clothink.Client.Pages.Closet",
+          "Common.TypeNameIdentifier": "Closet",
+          "Common.TypeNamespace": "Clothink.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": 1377524694,
         "Kind": "Components.Component",
         "Name": "Clothink.Client.Pages.Counter",
@@ -334,43 +371,6 @@
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": -1321424510,
-        "Kind": "Components.Component",
-        "Name": "Clothink.Client.Pages.Closet",
-        "AssemblyName": "Clothink.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Closet"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Clothink.Client.Pages.Closet",
-          "Common.TypeNameIdentifier": "Closet",
-          "Common.TypeNamespace": "Clothink.Client.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -253020197,
-        "Kind": "Components.Component",
-        "Name": "Clothink.Client.Pages.Closet",
-        "AssemblyName": "Clothink.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Clothink.Client.Pages.Closet"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Clothink.Client.Pages.Closet",
-          "Common.TypeNameIdentifier": "Closet",
-          "Common.TypeNamespace": "Clothink.Client.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
         }
       },
       {
