@@ -46,176 +46,6 @@
         }
       },
       {
-        "HashCode": 1377524694,
-        "Kind": "Components.Component",
-        "Name": "Clothink.Client.Pages.Counter",
-        "AssemblyName": "Clothink.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "IncrementAmount",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "IncrementAmount",
-              "Common.GloballyQualifiedTypeName": "global::System.Int32"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Clothink.Client.Pages.Counter",
-          "Common.TypeNameIdentifier": "Counter",
-          "Common.TypeNamespace": "Clothink.Client.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1830515988,
-        "Kind": "Components.Component",
-        "Name": "Clothink.Client.Pages.Counter",
-        "AssemblyName": "Clothink.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Clothink.Client.Pages.Counter"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "IncrementAmount",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "IncrementAmount",
-              "Common.GloballyQualifiedTypeName": "global::System.Int32"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Clothink.Client.Pages.Counter",
-          "Common.TypeNameIdentifier": "Counter",
-          "Common.TypeNamespace": "Clothink.Client.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -2045584452,
-        "Kind": "Components.Component",
-        "Name": "Clothink.Client.Pages.ButtonWithModifyModal",
-        "AssemblyName": "Clothink.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ButtonWithModifyModal"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Clothink.Client.Pages.ButtonWithModifyModal",
-          "Common.TypeNameIdentifier": "ButtonWithModifyModal",
-          "Common.TypeNamespace": "Clothink.Client.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 2096749905,
-        "Kind": "Components.Component",
-        "Name": "Clothink.Client.Pages.ButtonWithModifyModal",
-        "AssemblyName": "Clothink.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Clothink.Client.Pages.ButtonWithModifyModal"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Clothink.Client.Pages.ButtonWithModifyModal",
-          "Common.TypeNameIdentifier": "ButtonWithModifyModal",
-          "Common.TypeNamespace": "Clothink.Client.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 2083817251,
-        "Kind": "Components.Component",
-        "Name": "Clothink.Client.Pages.Home",
-        "AssemblyName": "Clothink.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Home"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Clothink.Client.Pages.Home",
-          "Common.TypeNameIdentifier": "Home",
-          "Common.TypeNamespace": "Clothink.Client.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 538766602,
-        "Kind": "Components.Component",
-        "Name": "Clothink.Client.Pages.Home",
-        "AssemblyName": "Clothink.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Clothink.Client.Pages.Home"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Clothink.Client.Pages.Home",
-          "Common.TypeNameIdentifier": "Home",
-          "Common.TypeNamespace": "Clothink.Client.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -2094908880,
-        "Kind": "Components.Component",
-        "Name": "Clothink.Client.Pages.FetchData",
-        "AssemblyName": "Clothink.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Clothink.Client.Pages.FetchData",
-          "Common.TypeNameIdentifier": "FetchData",
-          "Common.TypeNamespace": "Clothink.Client.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1306691035,
-        "Kind": "Components.Component",
-        "Name": "Clothink.Client.Pages.FetchData",
-        "AssemblyName": "Clothink.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Clothink.Client.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Clothink.Client.Pages.FetchData",
-          "Common.TypeNameIdentifier": "FetchData",
-          "Common.TypeNamespace": "Clothink.Client.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": -30263558,
         "Kind": "Components.Component",
         "Name": "Clothink.Client.Pages.ModifyModalForm",
@@ -408,6 +238,352 @@
           "Common.TypeNamespace": "Clothink.Client.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -918109824,
+        "Kind": "Components.Component",
+        "Name": "Clothink.Client.Pages.Scan",
+        "AssemblyName": "Clothink.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Scan"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Clothink.Client.Pages.Scan",
+          "Common.TypeNameIdentifier": "Scan",
+          "Common.TypeNamespace": "Clothink.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1740185418,
+        "Kind": "Components.Component",
+        "Name": "Clothink.Client.Pages.Scan",
+        "AssemblyName": "Clothink.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Clothink.Client.Pages.Scan"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Clothink.Client.Pages.Scan",
+          "Common.TypeNameIdentifier": "Scan",
+          "Common.TypeNamespace": "Clothink.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -996619304,
+        "Kind": "Components.Component",
+        "Name": "Clothink.Client.Pages.Create",
+        "AssemblyName": "Clothink.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Create"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Clothink.Client.Pages.Create",
+          "Common.TypeNameIdentifier": "Create",
+          "Common.TypeNamespace": "Clothink.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1826570317,
+        "Kind": "Components.Component",
+        "Name": "Clothink.Client.Pages.Create",
+        "AssemblyName": "Clothink.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Clothink.Client.Pages.Create"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Clothink.Client.Pages.Create",
+          "Common.TypeNameIdentifier": "Create",
+          "Common.TypeNamespace": "Clothink.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1377524694,
+        "Kind": "Components.Component",
+        "Name": "Clothink.Client.Pages.Counter",
+        "AssemblyName": "Clothink.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "IncrementAmount",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "IncrementAmount",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Clothink.Client.Pages.Counter",
+          "Common.TypeNameIdentifier": "Counter",
+          "Common.TypeNamespace": "Clothink.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1830515988,
+        "Kind": "Components.Component",
+        "Name": "Clothink.Client.Pages.Counter",
+        "AssemblyName": "Clothink.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Clothink.Client.Pages.Counter"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "IncrementAmount",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "IncrementAmount",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Clothink.Client.Pages.Counter",
+          "Common.TypeNameIdentifier": "Counter",
+          "Common.TypeNamespace": "Clothink.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -2045584452,
+        "Kind": "Components.Component",
+        "Name": "Clothink.Client.Pages.ButtonWithModifyModal",
+        "AssemblyName": "Clothink.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ButtonWithModifyModal"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Clothink.Client.Pages.ButtonWithModifyModal",
+          "Common.TypeNameIdentifier": "ButtonWithModifyModal",
+          "Common.TypeNamespace": "Clothink.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 2096749905,
+        "Kind": "Components.Component",
+        "Name": "Clothink.Client.Pages.ButtonWithModifyModal",
+        "AssemblyName": "Clothink.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Clothink.Client.Pages.ButtonWithModifyModal"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Clothink.Client.Pages.ButtonWithModifyModal",
+          "Common.TypeNameIdentifier": "ButtonWithModifyModal",
+          "Common.TypeNamespace": "Clothink.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 2083817251,
+        "Kind": "Components.Component",
+        "Name": "Clothink.Client.Pages.Home",
+        "AssemblyName": "Clothink.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Home"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Clothink.Client.Pages.Home",
+          "Common.TypeNameIdentifier": "Home",
+          "Common.TypeNamespace": "Clothink.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 538766602,
+        "Kind": "Components.Component",
+        "Name": "Clothink.Client.Pages.Home",
+        "AssemblyName": "Clothink.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Clothink.Client.Pages.Home"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Clothink.Client.Pages.Home",
+          "Common.TypeNameIdentifier": "Home",
+          "Common.TypeNamespace": "Clothink.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -2094908880,
+        "Kind": "Components.Component",
+        "Name": "Clothink.Client.Pages.FetchData",
+        "AssemblyName": "Clothink.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Clothink.Client.Pages.FetchData",
+          "Common.TypeNameIdentifier": "FetchData",
+          "Common.TypeNamespace": "Clothink.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1306691035,
+        "Kind": "Components.Component",
+        "Name": "Clothink.Client.Pages.FetchData",
+        "AssemblyName": "Clothink.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Clothink.Client.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Clothink.Client.Pages.FetchData",
+          "Common.TypeNameIdentifier": "FetchData",
+          "Common.TypeNamespace": "Clothink.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -381773656,
+        "Kind": "Components.Component",
+        "Name": "Clothink.Client.Pages.ScanForm",
+        "AssemblyName": "Clothink.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ScanForm"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ScanFormTitle",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ScanFormTitle",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Clothink.Client.Pages.ScanForm",
+          "Common.TypeNameIdentifier": "ScanForm",
+          "Common.TypeNamespace": "Clothink.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -774707247,
+        "Kind": "Components.Component",
+        "Name": "Clothink.Client.Pages.ScanForm",
+        "AssemblyName": "Clothink.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Clothink.Client.Pages.ScanForm"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ScanFormTitle",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ScanFormTitle",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Clothink.Client.Pages.ScanForm",
+          "Common.TypeNameIdentifier": "ScanForm",
+          "Common.TypeNamespace": "Clothink.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -747390216,
+        "Kind": "Components.ChildContent",
+        "Name": "Clothink.Client.Pages.ScanForm.ScanFormTitle",
+        "AssemblyName": "Clothink.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ScanFormTitle",
+            "ParentTag": "ScanForm"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Clothink.Client.Pages.ScanForm.ScanFormTitle",
+          "Common.TypeNameIdentifier": "ScanForm",
+          "Common.TypeNamespace": "Clothink.Client.Pages",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 373957641,
+        "Kind": "Components.ChildContent",
+        "Name": "Clothink.Client.Pages.ScanForm.ScanFormTitle",
+        "AssemblyName": "Clothink.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ScanFormTitle",
+            "ParentTag": "Clothink.Client.Pages.ScanForm"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Clothink.Client.Pages.ScanForm.ScanFormTitle",
+          "Common.TypeNameIdentifier": "ScanForm",
+          "Common.TypeNamespace": "Clothink.Client.Pages",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
         }
       },
       {
@@ -15449,6 +15625,16 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "d:\\vscode\\kipi\\Clothink\\Clothink\\Client\\Pages\\ScanForm.razor",
+      "TargetPath": "Pages\\ScanForm.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\vscode\\kipi\\Clothink\\Clothink\\Client\\Pages\\Scan.razor",
+      "TargetPath": "Pages\\Scan.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "d:\\vscode\\kipi\\Clothink\\Clothink\\Client\\Pages\\FetchData.razor",
       "TargetPath": "Pages\\FetchData.razor",
       "FileKind": "component"
@@ -15456,6 +15642,11 @@
     {
       "FilePath": "d:\\vscode\\kipi\\Clothink\\Clothink\\Client\\Pages\\ModifyModalForm.razor",
       "TargetPath": "Pages\\ModifyModalForm.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\vscode\\kipi\\Clothink\\Clothink\\Client\\Pages\\Create.razor",
+      "TargetPath": "Pages\\Create.razor",
       "FileKind": "component"
     },
     {
